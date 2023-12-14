@@ -7,7 +7,7 @@ const withNextIntl = require("next-intl/plugin")(
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     experimental: {
-      serverActions: true,
+      ppr: true,
     },
     images: {
       formats: ["image/avif", "image/webp"],
